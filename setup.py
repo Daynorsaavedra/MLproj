@@ -17,8 +17,8 @@ def get_requirements(file_path:str)->List[str]:
     return requirements
 
 setup(
-name='mlproject', # name of the project you can change
-version='0.0.1', # version that needs to be aupdate it as you work 
+name='mlproject', 
+version='0.0.1',  
 author='daynor',
 author_email='daynor@gmail.com',
 packages=find_packages(),
@@ -26,8 +26,3 @@ install_requires=get_requirements('requirements.txt')
 
 )
 
-## with this code you will get the installation of 
-## all the packages need it for the project
-## this code will read the requirements file and 
-## will install all the packages listed there
-## and will create the file mlproject.egg-info  
